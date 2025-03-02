@@ -1,0 +1,11 @@
+{
+  "rangeStrategy": "bump",
+  "extends": ["config:base"],
+  "packageRules": [
+    {
+      "matchManagers": ["pub"],
+      "groupName": "Flutter Dependencies",
+      "schedule": ["weekly"]
+    }
+  ]
+}
