@@ -1,3 +1,11 @@
 {
-  "platform": "github"
+  "platform": "github",
+  "extends": ["config:base"],
+  "packageRules": [
+    {
+      "matchManagers": ["pub"],
+      "groupName": "dart dependencies",
+      "schedule": ["weekly"]
+    }
+  ]
 }
